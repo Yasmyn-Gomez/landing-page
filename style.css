@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0; /*not padding, but margin*/
+  display: flex;
+  flex-direction: column;
+}
+
+/**{
+  border: 1px solid black;
+}*/
+
+.header, .footer {
+  display: flex;
+  background: #735d78; /*choice of mine*/
+  color: #e5e7eb;
+  padding: 16px;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  background: #735d78;
+}
+
+.logo {
+  font-weight: 700;
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.content {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content.first {
+  background: #735d78;
+  padding: 80px 50px;
+  text-align: justify;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.hero.main {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.hero.secondary, li {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero, .quote {
+  margin-bottom: 20px;
+}
+
+.text.first, .first img {
+  width: 500px;
+}
+
+button {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.first button {
+  border: 1px solid #b392ac;
+  background: #b392ac;
+}
+
+.first.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content.second {
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+
+.content.second .second.main {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.second.secondary {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.second img, .item {
+  width: 200px;
+}
+
+.second img {
+  border: 3px solid #b392ac;
+  border-radius: 8px;
+}
+
+.third .content.container {
+  margin: -50px;
+  max-width: 900px;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.content.third {
+  background: #e5e7eb;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.author {
+  font-weight: 700;
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.fourth .content.container {
+  background: #3882f6;
+  color: white;
+  width: 900px;
+  border-radius: 6px;
+  padding: 20px 40px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.fourth .main {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.fourth button {
+  border: 1px solid white;
+  background: #3882f6;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  margin: 0 0.5em;
+}
